@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+
+#logo{
+    font-family: 'Dancing Script', cursive, serif;
+    color: #9d6f38;
+    padding:15px;
+    font-size: 33px;
+}
+
+#n{
+   display: flex;
+   justify-content: space-between; 
+   align-items: center ;
+   background-color: rgba(242, 207, 235, 0.667); 
+   height: 50px;
+   z-index:1;
+   position:absolute ;
+   top:0;
+   width:100%;
+}
+
+
+#h{
+    display:flex;
+    background-image: url(/Users/anastasiasabina/Desktop/mhw1/rosa.jpeg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position:relative; 
+    background-position: center;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#overlay{
+    background-color:rgba(0, 0, 0, .3);
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+}
+
+
+#collegamenti a{
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+border: 3px outset rgb(169, 11, 135) ;
+color: #9d6f38;
+font-style:oblique;
+text-decoration: none; 
+margin:7px;
+padding: 5px;
+}
+
+
+#collegamenti a:hover {
+border: 4px double #ff03c4;
+background-color:#7d0375e8;
+color: rgb(199, 141, 170);
+
+}
+
+#collegamenti a:active{
+text-decoration: underline wavy rgb(200, 160, 209); 
+}
+
+div.intro {
+    color:rgb(179, 52, 116); 
+    font-size:25px;
+    max-width: 780px;
+    font-family: 'Satisfy', cursive, 'Lora';
+    letter-spacing: 1px;
+}
+
+
+#titolo{
+    font-size:80px;
+    color: hwb(332 8% 23%);
+    max-width: 780px;
+    z-index:1;
+}
+
+#foto_profilo{
+display:flex;
+position: relative;
+margin-top:-50px;
+margin-bottom:60px;
+align-items: center;
+flex-direction: column;
+color: rgba(207, 28, 145, 0.735);
+font-size: 22px;
+font-family: 'Dancing Script', cursive, serif;
+}
+
+
+#foto_profilo img {
+    border-radius: 50px;
+    width:100px;
+    border: 4px double rgba(207, 28, 145, 0.735);
+}
+
+
+#s{
+    display:flex;
+    width:66.67vw;
+    justify-content:center; 
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+h1{ 
+   font-size: 30px ;
+   font-family: 'Tiro Devanagari Hindi', serif;;
+   color: #c3a013;
+   font-style: normal;
+   margin-bottom: 20px;
+   text-decoration: underline;
+}
+
+
+
+.s-row{
+    display: flex;
+    align-items: baseline;
+}
+
+
+div .num{
+   padding: 40px;
+   font-size: 30px ;
+   font-family: 'Tiro Telugu', serif; ;
+   color: #c3a013;
+   font-style: oblique ;
+   font-weight: bold ;
+}
+
+
+
+
+#s p
+{
+    text-align: justify;
+    font-size: 15px ;
+    font-family: 'Montserrat', sans-serif;;
+    color: rgb(174, 10, 114);
+    font-style: italic ;
+    font-weight: bold ;
+    line-height:20px ;
+    margin-bottom: 20px;
+}
+
+    
+div .items img
+{
+    width:100%;
+    margin-bottom: 120px;
+    border-radius: 15px;
+    border: dashed rgb(216, 10, 113) 3px;
+}
+
+
+#menu{
+    display: none;
+}
+
+@media (max-width:634px){
+    #collegamenti {
+        display:none;
+    }
+    #menu{
+        display:block;}
+}
+
+#menu div{
+   width:25px;
+   height: 3px;
+   background-color: hwb(332 8% 23%);
+   margin:5px 10px;
+}
+
+footer{
+    background-color: rgb(242, 207, 235);
+    color: rgb(190, 13, 131);
+    padding: 35px;
+    text-align: center;
+    width: auto;
+}
+
